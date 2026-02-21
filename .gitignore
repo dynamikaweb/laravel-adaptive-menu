@@ -1,0 +1,17 @@
+# Dependências instaladas localmente para testes
+/vendor/
+
+# Arquivos de IDE e Sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Cache e Logs gerados durante o desenvolvimento/testes
+.phpunit.result.cache
+/storage/
+*.log
+
+# Arquivos de ambiente que você não quer que vazem (caso use para testes)
+.env
+composer.lock

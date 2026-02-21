@@ -1,0 +1,30 @@
+{
+    "name": "dynamikaweb/laravel-adaptive-menu",
+    "description": "Complex, adaptable, responsive and self-correcting menu for Laravel.",
+    "type": "library",
+    "keywords": ["dynamika", "laravel", "menu"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Giordani da Silveira",
+            "email": "giordani@dynamika.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/view": "^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DynamikaWeb\\Adaptive\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DynamikaWeb\\Adaptive\\MenuServiceProvider"
+            ]
+        }
+    }
+}
