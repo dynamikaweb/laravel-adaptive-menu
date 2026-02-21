@@ -1,10 +1,10 @@
 <?php
 
-namespace DynamikaWeb\Adaptive;
+namespace DynamikaSolucoesWeb\Adaptive;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
-use DynamikaWeb\Adaptive\View\Components\Menu;
+use DynamikaSolucoesWeb\Adaptive\View\Components\Menu;
 
 class MenuServiceProvider extends ServiceProvider
 {
@@ -15,7 +15,7 @@ class MenuServiceProvider extends ServiceProvider
         Blade::component('adaptive-menu', Menu::class);
 
         $this->publishes([
-            __DIR__.'/../resources/assets' => public_path('vendor/dynamikaweb/adaptive-menu'),
+            __DIR__.'/../resources/assets' => public_path('vendor/dynamikasolucoesweb/adaptive-menu'),
         ], 'adaptive-menu-assets');
     }
 }

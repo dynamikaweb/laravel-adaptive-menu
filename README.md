@@ -1,10 +1,10 @@
-dynamikaweb/laravel-adaptive-menu
+dynamikasolucoesweb/laravel-adaptive-menu
 =========================
-![php version](https://img.shields.io/packagist/php-v/dynamikaweb/laravel-adaptive-menu)
-![pkg version](https://img.shields.io/packagist/v/dynamikaweb/laravel-adaptive-menu)
-![license](https://img.shields.io/packagist/l/dynamikaweb/laravel-adaptive-menu)
-![quality](https://img.shields.io/scrutinizer/quality/g/dynamikaweb/laravel-adaptive-menu)
-![build](https://img.shields.io/scrutinizer/build/g/dynamikaweb/laravel-adaptive-menu)
+![php version](https://img.shields.io/packagist/php-v/dynamikasolucoesweb/laravel-adaptive-menu)
+![pkg version](https://img.shields.io/packagist/v/dynamikasolucoesweb/laravel-adaptive-menu)
+![license](https://img.shields.io/packagist/l/dynamikasolucoesweb/laravel-adaptive-menu)
+![quality](https://img.shields.io/scrutinizer/quality/g/dynamikasolucoesweb/laravel-adaptive-menu)
+![build](https://img.shields.io/scrutinizer/build/g/dynamikasolucoesweb/laravel-adaptive-menu)
 
 O Laravel Adaptive Menu é um componente Blade que transforma arrays complexos em menus responsivos e auto-ajustáveis. Ele redistribui sub-itens automaticamente para manter o equilíbrio visual do layout.
 
@@ -15,13 +15,13 @@ A maneira preferida de instalar esta extensão é através do [composer] [compos
 Ou corre
 
 ```SHELL
-$ composer require dynamikaweb/laravel-adaptive-menu "*"
+$ composer require dynamikasolucoesweb/laravel-adaptive-menu "*"
 ```
 
 ou adicione
 
 ```JSON
-"dynamikaweb/laravel-adaptive-menu": "*"
+"dynamikasolucoesweb/laravel-adaptive-menu": "*"
 ```
 
 à seção `require` do seu arquivo `composer.json`.
@@ -122,5 +122,5 @@ Authors
 Giordani da Silveira dos Santos - giordani@dynamika.com.br
 
 --------------------------------------------------------------------------------------------------------------
-[![dynamika soluções web](https://avatars.githubusercontent.com/dynamikaweb?size=12)](https://dynamika.com.br)
+[![dynamika soluções web](https://avatars.githubusercontent.com/dynamikasolucoesweb?size=12)](https://dynamika.com.br)
 This project is under [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) license.

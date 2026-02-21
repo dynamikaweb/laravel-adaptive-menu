@@ -1,5 +1,5 @@
 {
-    "name": "dynamikaweb/laravel-adaptive-menu",
+    "name": "dynamikasolucoesweb/laravel-adaptive-menu",
     "description": "Complex, adaptable, responsive and self-correcting menu for Laravel.",
     "type": "library",
     "keywords": ["dynamika", "laravel", "menu"],
@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "DynamikaWeb\\Adaptive\\": "src/"
+            "DynamikaSolucoesWeb\\Adaptive\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DynamikaWeb\\Adaptive\\MenuServiceProvider"
+                "DynamikaSolucoesWeb\\Adaptive\\MenuServiceProvider"
             ]
         }
     }

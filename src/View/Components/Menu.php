@@ -1,6 +1,6 @@
 <?php
 
-namespace DynamikaWeb\Adaptive\View\Components;
+namespace DynamikaSolucoesWeb\Adaptive\View\Components;
 
 use Illuminate\View\Component;
 use Illuminate\Support\Facades\Cache;
