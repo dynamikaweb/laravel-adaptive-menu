@@ -1,0 +1,22 @@
+build:
+    nodes:
+        analysis:
+            project_setup:
+                override: true
+            tests:
+                override:
+                    - php-scrutinizer-run
+
+filter:
+    excluded_paths:
+        - 'vendor/*'
+        - 'resources/views/*'
+    dependency_paths:
+        - 'vendor/*'
+
+checks:
+    php:
+        code_rating: true
+        duplication: true
+        unused_variables: true
+        unused_properties: true
