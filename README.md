@@ -3,8 +3,8 @@ dynamikasolucoesweb/laravel-adaptive-menu
 ![php version](https://img.shields.io/packagist/php-v/dynamikasolucoesweb/laravel-adaptive-menu)
 ![pkg version](https://img.shields.io/packagist/v/dynamikasolucoesweb/laravel-adaptive-menu)
 ![license](https://img.shields.io/packagist/l/dynamikasolucoesweb/laravel-adaptive-menu)
-![quality](https://img.shields.io/scrutinizer/quality/g/dynamikasolucoesweb/laravel-adaptive-menu)
-![build](https://img.shields.io/scrutinizer/build/g/dynamikasolucoesweb/laravel-adaptive-menu)
+![quality](https://img.shields.io/scrutinizer/quality/g/dynamikaweb/laravel-adaptive-menu)
+![build](https://img.shields.io/scrutinizer/build/g/dynamikaweb/laravel-adaptive-menu)
 
 O Laravel Adaptive Menu é um componente Blade que transforma arrays complexos em menus responsivos e auto-ajustáveis. Ele redistribui sub-itens automaticamente para manter o equilíbrio visual do layout.
 
