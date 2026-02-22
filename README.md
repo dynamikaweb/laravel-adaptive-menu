@@ -122,5 +122,5 @@ Authors
 Giordani da Silveira dos Santos - giordani@dynamika.com.br
 
 --------------------------------------------------------------------------------------------------------------
-[![dynamika soluções web](https://avatars.githubusercontent.com/dynamikasolucoesweb?size=12)](https://dynamika.com.br)
+[![dynamika soluções web](https://avatars.githubusercontent.com/dynamikaweb?size=12)](https://dynamika.com.br)
 This project is under [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) license.
