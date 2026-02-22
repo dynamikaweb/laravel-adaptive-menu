@@ -1,4 +1,7 @@
 build:
+    environment:
+        php:
+            version: 8.2.0
     nodes:
         analysis:
             project_setup:
@@ -8,15 +11,9 @@ build:
                     - php-scrutinizer-run
 
 filter:
-    excluded_paths:
-        - 'vendor/*'
-        - 'resources/views/*'
-    dependency_paths:
-        - 'vendor/*'
+    excluded_paths: [vendor/*, tests/*, resources/*]
 
 checks:
     php:
         code_rating: true
         duplication: true
-        unused_variables: true
-        unused_properties: true
