@@ -36,18 +36,28 @@ Caso deseje customizar os estilos ou scripts, você pode publicá-los em sua pas
 $ php artisan vendor:publish --tag=adaptive-menu-assets
 ```
 
+Isso copiará os arquivos para public/vendor/dynamikasolucoesweb/adaptive-menu. A biblioteca passará a usar esses arquivos automaticamente, melhorando a performance.
+
 ## ⚠️ Requisito do Layout
-Para que os estilos e scripts sejam injetados automaticamente, seu arquivo de layout base **precisa** conter as diretivas `@stack`:
+Para que os estilos e scripts sejam injetados automaticamente, seu arquivo de layout base **precisa** conter a diretiva `@adaptiveMenuAssets`:
 
 ```html
-@stack('css')
-
-@stack('scripts')
+<head>
+    {{-- Injeta automaticamente o CSS e JS do Menu --}}
+    @adaptiveMenuAssets
+    
+    @stack('css')
+</head>
+<body>
+    <x-adaptive-menu :items="$menuTree" :max-items="5" id="main-navigation" />
+    
+    @stack('scripts')
+</body>
 ```
 
-Usage
+Uso
 ------------
-Certifique-se de que seu layout principal possua as diretivas @stack('css') e @stack('scripts'). Basta chamar o componente e passar o seu array de itens. Também é possível informar a quantidade máxima de itens por menu através da variável max-items. O componente gerencia o cache e a normalização dos dados automaticamente.
+Certifique-se de que seu layout principal possua a diretiva @adaptiveMenuAssets. Basta chamar o componente e passar o seu array de itens. Também é possível informar a quantidade máxima de itens por menu através da variável max-items. O componente gerencia o cache e a normalização dos dados automaticamente.
 
 ```HTML
 <x-adaptive-menu :items="$menuTree" :max-items="5" id="main-navigation" />
